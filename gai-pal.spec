@@ -56,7 +56,6 @@ Terminal=false
 Type=Application
 Categories=X-MandrivaLinux-MoreApplications-Games-Toys;Amusement;
 StartupNotify=true
-Encoding=UTF-8
 EOF
 
 
