@@ -1,6 +1,6 @@
 %define name gai-pal
 %define version 0.7
-%define release %mkrel 4
+%define release %mkrel 6
 
 Name: %name
 Summary: A dear friend GAI applet
