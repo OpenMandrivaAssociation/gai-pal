@@ -1,6 +1,6 @@
 %define name gai-pal
 %define version 0.7
-%define release %mkrel 6
+%define release %mkrel 7
 
 Name: %name
 Summary: A dear friend GAI applet
@@ -13,6 +13,7 @@ Source: http://prdownloads.sourceforge.net/gai/%{name}-%{version}.tar.bz2
 Source10:   %{name}-16.png
 Source11:   %{name}-32.png
 Source12:   %{name}-48.png
+Patch: gai-pal-0.7-format-strings.patch
 BuildRoot: %{_tmppath}/build-root-%{name}
 BuildRequires: libgai-devel >= 0.5.3
 
@@ -25,6 +26,7 @@ supported soon.
 
 %prep
 %setup -q 
+%patch -p1
 
 %build
 %configure2_5x
