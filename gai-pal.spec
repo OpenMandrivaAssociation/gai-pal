@@ -7,7 +7,7 @@ Summary: A dear friend GAI applet
 Version: %{version}
 Release: %{release}
 License: GPL
-Url: http://gai.sf.net
+Url: https://gai.sf.net
 Group: Games/Other
 Source: http://prdownloads.sourceforge.net/gai/%{name}-%{version}.tar.bz2
 Source10:   %{name}-16.png
